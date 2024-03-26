@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+    height: 118px;
+    width: 100%;
+}
+
+header img{
+   width: 202px;
+   height: 63px;
+   margin-top: 27px;
+   margin-left: 58px;
+}
+
+.container{
+    display: flex;
+    grid-auto-flow: column;
+}
+
+#sec1{
+    background-color: #514988;
+    color: #FFFFFF;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#sec1 h1{
+    padding-top: 50px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #F3C61F;   
+}
+
+#sec1 h3{
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;   
+}
+
+#sec1 p{
+    margin-top: 30px;
+    font-size: 29px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.grape{
+    display: flex;
+    color: #514988;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+#sec2{
+    align-items: center;
+    display: grid;
+}
+
+#timer{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#sec3{
+    width: 90%;
+    text-align: center;
+    align-items: center;
+}
+
+#sec3Title{
+    font-size: 27px;
+    font-weight: 700;
+    color: #E33881;
+    margin-bottom: 30px;
+}
+
+#vid{
+    width: 100%;
+    padding: 25px;
+}
+
+footer{
+    padding-bottom: 100px;
+}
+
+#sec4Title{ 
+    font-size: 18px;
+    font-weight: 700;
+    color:#F3C61F;
+    padding: 32px;
+}
+
+#ingressos{
+    width: 204px;
+    display: grid;
+    grid-auto-flow: column;
+    margin: 20px 0px 20px 0px;
+}
+
+button{
+    margin: 25px 0px 0px 25px;
+    width: 596px;
+    height: 148px;
+    border-radius: 20px;
+    border: none;
+    background-color: #514988;
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background: #514988;
+    cursor:pointer;
+    color: #F3C61F;
+}
+
+.cardHighlight{
+    box-shadow: 10px 10px 10px 10px lightgrey;
+}
+
+.cardSelected{
+    border: 5px solid lightgreen;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #FFD900;
+    padding-bottom: 20px;
+}
+input{
+    margin: 25px 0px 0px 25px;
+    width: 596px;
+    height: 148px;
+    border-radius: 20px;
+    border: none;
+    background-color: #514988;
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* comentario aqui dentro */
